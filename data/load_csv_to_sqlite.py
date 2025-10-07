@@ -10,7 +10,7 @@ import pandas as pd
 
 CSV_PATH   = r"crop_yield.csv"
 DB_PATH    = r"plantio.db"
-TABLE_NAME = "plantio_raw"
+TABLE_NAME = "plantio"
 IF_EXISTS  = "replace"
 CHUNKSIZE  = 5000
 
